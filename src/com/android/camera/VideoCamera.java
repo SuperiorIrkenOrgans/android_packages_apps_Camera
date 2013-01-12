@@ -776,7 +776,6 @@ public class VideoCamera extends BaseCamera
         }
 
         if (CameraSettings.isCamcoderFocusAtStart()) {
-            mCameraDevice.autoFocus(null);
         }
     }
 
@@ -1341,7 +1340,6 @@ public class VideoCamera extends BaseCamera
         }
 
         if (CameraSettings.isCamcoderFocusAtStart()) {
-            mCameraDevice.autoFocus(null);
         }
         CameraSettings.setContinuousAf(mParameters, true);
         setCameraHardwareParameters();
